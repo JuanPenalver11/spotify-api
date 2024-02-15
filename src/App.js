@@ -11,7 +11,7 @@ function App() {
   const [accessToken, setAccessToken] = useState('');
   const [albums, setAlbums] = useState([]);
   const [error, setError] = useState(null);
-  const [like, setLike] = useState(false)
+
   
 
   useEffect(() => {
