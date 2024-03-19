@@ -11,7 +11,8 @@ function App() {
   const [albums, setAlbums] = useState([]);
   const [error, setError] = useState(null);
 
-  
+  CLIENT_ID = // enter ID
+  CLIENT_SECRET = //enter Secret 
 
   useEffect(() => {
     //API Access Token
