@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, FormControl, InputGroup, Button, Row, Card } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 
-const CLIENT_ID = '2a631c8254e14ac99ff4816e573a898a';
-const CLIENT_SECRET = '688db1a3196f42ca9dbcd115a86dc442';
+
 
 function App() {
   const [searchInput, setSearchInput] = useState('');
